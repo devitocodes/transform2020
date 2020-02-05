@@ -1,4 +1,9 @@
-# Rice OGHPC workshop 4th March 2020: From Zero-to-Devito
+# From Zero-to-Devito
+## Rice OGHPC workshop Wednesday, March 4 (8:15 AM – 3:45 PM): 
+
+* Presented by: Dr. Gerard Gorman, Dr. Fabio Luporini, Dr. Rhodri Nelson, Mr. Navjot Kukreja, Imperial College London
+* Conference website: https://rice2020oghpc.rice.edu
+* Includes breakfast, morning break, lunch, and afternoon break.
 
 The [Devito](https://www.devitoproject.org/) workshop will consist of a hands-on morning session where participants will learn how to implement finite difference and inverse solvers using Devito. We will provide access to Microsoft Azure VM's with Devito and JupyterHub. Alternatively participants should preinstall Devito on their laptops using the install [instructions provided](https://github.com/devitocodes/devito). 
 
