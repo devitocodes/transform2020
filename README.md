@@ -15,15 +15,15 @@ Minimum requirements and prerequisites:
 * Basic Python programming knowledge
 * Basic knowledge of finite differences
 
-* Introduction to Devito (15 mins)
-* Implementing finite difference solvers (60 mins)
- * Differential operators
- * Boundary conditions
+The format will be roughly as follows:
+* Introduction to the Devito (60 mins)
+ * The Devito DSL
+ * Building differential operators
+* Building parallel wave-propagators (60 mins)
  * Source and receivers
  * MPI
-* Benchmarking and performance turning (30 mins)
-* Gradient calculation via backpropogation (30 mins)
-* Basic FWI with SciPy and Dask (30 mins)
+ * Boundary conditions
+* Gradient calculation via backpropagation (45 mins)
 * Wrap-up and Q&A (15 mins)
 
 ## Afternoon: Devito for HPC developers
