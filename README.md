@@ -17,12 +17,12 @@ Minimum requirements and prerequisites:
 
 The format will be roughly as follows:
 * Introduction to the Devito (60 mins)
- * The Devito DSL
- * Building differential operators
+    * The Devito DSL
+    * Building differential operators
 * Building parallel wave-propagators (60 mins)
- * Source and receivers
- * MPI
- * Boundary conditions
+    * Source and receivers
+    * MPI
+    * Boundary conditions
 * Gradient calculation via backpropagation (45 mins)
 * Wrap-up and Q&A (15 mins)
 
@@ -36,6 +36,6 @@ Minimum requirements and prerequisites:
 * Devito GPU roadmap (15 min)
 * Exploiting the Devito JIT-escapehatch (15 mins)
 * GPU hackathon (2 hrs)
-  * OpenMP 5 offloading - multiple architectures
-  * OpenACC offloading
+    * OpenMP 5 offloading - multiple architectures
+    * OpenACC offloading
 * Performance prizes and wrap-up.
