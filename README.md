@@ -5,7 +5,7 @@
 * Conference website: https://rice2020oghpc.rice.edu
 * Includes breakfast, morning break, lunch, and afternoon break.
 
-The [Devito](https://www.devitoproject.org/) workshop will consist of a hands-on morning session where participants will learn how to implement finite difference and inverse solvers using Devito. We will provide access to Microsoft Azure VM's with Devito and JupyterHub. Alternatively participants should preinstall Devito on their laptops using the install [instructions provided](https://github.com/devitocodes/devito). 
+The [Devito](https://www.devitoproject.org/) workshop will consist of a hands-on morning session where participants will learn how to implement finite difference and inverse solvers using Devito. We will provide access to Microsoft Azure VM's with Devito and JupyterHub. Alternatively participants should preinstall Devito on their laptops using the install [instructions provided](https://github.com/devitocodes/devito). Note: If using your own device it is suggested that you clone this repository and ensure that the notebooks located in the `morning_tutorial` folder function without error beforehand.
 
 The afternoon session will be run hackathon style, giving experienced HPC developers the opportunity to develop the Devito JIT-escape hatch (ie directly customising the Devito generated source code), where the target problem is performance optimisation of Devito on GPU processors running on Azure Cloud.  
 
