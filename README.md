@@ -14,6 +14,7 @@ Minimum requirements and prerequisites:
 * Laptop with a browser
 * Basic Python programming knowledge
 * Basic knowledge of finite differences
+* A Github account for authentication
 
 The format will be roughly as follows:
 * Introduction to the Devito (60 mins)
