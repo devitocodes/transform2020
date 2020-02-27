@@ -27,6 +27,19 @@ The format will be roughly as follows:
 * Gradient calculation via backpropagation (45 mins)
 * Wrap-up and Q&A (15 mins)
 
+## Instructions
+
+Go to: ```http://13.66.135.195```
+
+```
+New -> Terminal
+git clone https://github.com/devitocodes/devito.git
+cd devito
+pip install --user -e .[extras]
+```
+Navigate to ``` devito/examples/seismic/tutorials/``` and enjoy!
+
+
 ## Afternoon: Devito for HPC developers
 Minimum requirements and prerequisites:
 * Laptop with a browser
