@@ -28,7 +28,7 @@ The format will be roughly as follows:
 * Wrap-up and Q&A (15 mins)
 
 To access material for the primer:
-* If using Azure VM's:
+* If using the Azure VM's provided:
     * Go to: http://13.66.135.195
     * Login using your Github credentials
     * New -> Terminal
