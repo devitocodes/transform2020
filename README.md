@@ -27,17 +27,18 @@ The format will be roughly as follows:
 * Gradient calculation via backpropagation (45 mins)
 * Wrap-up and Q&A (15 mins)
 
-## Instructions
-
-Go to: ```http://13.66.135.195```
-
-```
-New -> Terminal
-git clone https://github.com/devitocodes/devito.git
-cd devito
-pip install --user -e .[extras]
-```
-Navigate to ``` devito/examples/seismic/tutorials/``` and enjoy!
+To access material for the primer:
+* If using Azure VM's:
+    * Go to: ```http://13.66.135.195```
+    * New -> Terminal
+    * git clone https://github.com/devitocodes/devito.git
+    * cd devito
+    * pip install --user -e .[extras]
+    * Navigate to ``` OGHPC/morning_tutorials/``` and enjoy!
+* If using your own device:
+    * After installing devito, in a separate directory run `git clone https://github.com/devitocodes/OGHPC2020.git`
+    * Navigate to ``` OGHPC/morning_tutorials/```, then with the `Devito` environment activated run `jupyter notebook` followed
+    by the name of the tutorial
 
 
 ## Afternoon: Devito for HPC developers
