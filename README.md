@@ -29,7 +29,7 @@ The format will be roughly as follows:
 
 To access material for the primer:
 * If using Azure VM's:
-    * Go to: ```http://13.66.135.195```
+    * Go to: http://13.66.135.195
     * New -> Terminal
     * git clone https://github.com/devitocodes/devito.git
     * cd devito
