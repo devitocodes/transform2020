@@ -29,12 +29,9 @@ The format will be roughly as follows:
 
 To access material for the primer:
 * If using the Azure VM's provided:
-    * Go to: http://13.66.135.195
+    * Go to: http://tutorial.devitoproject.org
     * Login using your Github credentials
-    * New -> Terminal
-    * `git clone https://github.com/devitocodes/devito.git`
-    * cd devito
-    * pip install --user -e .[extras]
+    * New -> Terminal (A bash script will automatically initialize your environment)
     * Navigate to ``` OGHPC/morning_tutorials/``` and enjoy!
 * If using your own device:
     * After installing devito, in a separate directory run `git clone https://github.com/devitocodes/OGHPC2020.git`
