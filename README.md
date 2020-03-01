@@ -40,7 +40,7 @@ To access material for the primer:
 
 
 ## Afternoon: Devito for HPC developers
-Minimum requirements and prerequisites:
+### Minimum requirements and prerequisites:
 * Laptop with a browser
 * Experience with Git
 * C/C++ programming experience
@@ -52,3 +52,9 @@ Minimum requirements and prerequisites:
     * OpenMP 5 offloading - multiple architectures
     * OpenACC offloading
 * Performance prizes and wrap-up.
+
+
+###  Content 
+Check the link bellow for more content about the afternoon hackton:
+
+<https://github.com/DevitoHack-oghpc2020/starter>
