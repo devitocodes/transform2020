@@ -27,8 +27,20 @@ The format will be roughly as follows:
 * Gradient calculation via backpropagation (45 mins)
 * Wrap-up and Q&A (15 mins)
 
+To access material for the primer:
+* If using the Azure VM's provided:
+    * Go to: http://tutorial.devitoproject.org
+    * Login using your Github credentials
+    * New -> Terminal (A bash script will automatically initialize your environment)
+    * Navigate to ``` OGHPC/morning_tutorials/``` and enjoy!
+* If using your own device:
+    * After installing devito, in a separate directory run `git clone https://github.com/devitocodes/OGHPC2020.git`
+    * Navigate to ``` OGHPC/morning_tutorials/```, then with the `Devito` environment activated run `jupyter notebook` followed
+    by the name of the tutorial you wish to open
+
+
 ## Afternoon: Devito for HPC developers
-Minimum requirements and prerequisites:
+### Minimum requirements and prerequisites:
 * Laptop with a browser
 * Experience with Git
 * C/C++ programming experience
@@ -40,3 +52,9 @@ Minimum requirements and prerequisites:
     * OpenMP 5 offloading - multiple architectures
     * OpenACC offloading
 * Performance prizes and wrap-up.
+
+
+###  Content 
+Check the link bellow for more content about the afternoon hackton:
+
+<https://github.com/DevitoHack-oghpc2020/starter>
