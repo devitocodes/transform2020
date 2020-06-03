@@ -4,7 +4,11 @@
 * Presented by: Dr. Rhodri Nelson & Gerard Gorman, Imperial College London
 * Conference website: https://transform2020.sched.com/
 
-The [Devito](https://www.devitoproject.org/) workshop will ...
+[Devito](https://www.devitoproject.org/) is a domain specific language (DSL) and compiler for finite difference schemes. This workshop will provide attendees with an introduction to the core elements of the Devito DSL. A breakdown of the agenda is as follows:
+* Introduction to the DSL - Expressing PDEs in Devito
+* Introduction to Devito operators
+* Building wave-propagators
+* Expressing boundary conditions
 
 For attendees who would like a more hands on experience with Devito, during the workshop and for a period afterwards we will provide access to Microsoft Azure VMs with Devito and JupyterHub. Alternatively, participants may wish to install Devito on their local machine using the install [instructions provided](https://www.devitoproject.org/devito/download.html).
 
@@ -18,7 +22,7 @@ To access the workshop material:
     * Go to: http://tutorial.devitoproject.org
     * Login using your Github credentials
     * New -> Terminal (A bash script will automatically initialize your environment)
-    * Navigate to ```transform2020``` and enjoy!
+    * Navigate to ```transform2020/workshop_notebooks``` and enjoy!
 * If using your own device:
     * After installing devito, in a separate directory run `git clone https://github.com/devitocodes/transform2020.git`
-    * Navigate to the cloned folder, then with the `Devito` environment activated run `jupyter notebook` followed by the name of the tutorial you wish to open
+    * Navigate to the ```workshop_notebooks``` in the cloned repository, then with the `Devito` environment activated run `jupyter notebook` followed by the name of the tutorial you wish to open
