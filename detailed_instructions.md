@@ -15,6 +15,6 @@ Step 3. Authorize
 ![alt text](https://ndownloader.figshare.com/files/22927460/preview/22927460/preview.jpg "Authorize admin")
 
 
-Step 4 New Terminal - > Let it flow
+Step 4 New --> Terminal --> Let it flow
 
 ![alt text](https://ndownloader.figshare.com/files/22927466/preview/22927466/preview.jpg "Let it flow")
