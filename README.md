@@ -1,5 +1,5 @@
 # Geophysical modeling with Devito: From Zero-to-Devito
-## Transform2020 workshop Wednesday, June 10 (09:00 – 12:00 BST): 
+## Transform2020 workshop Thursday, June 11 (09:00 – 12:00 BST): 
 
 * Presented by: Dr. Rhodri Nelson & Gerard Gorman, Imperial College London
 * Conference website: https://transform2020.sched.com/
