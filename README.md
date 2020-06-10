@@ -1,7 +1,7 @@
 # Geophysical modeling with Devito: From Zero-to-Devito
 ## Transform2020 workshop Thursday, June 11 (09:00 – 12:00 BST): 
 
-* Presented by: Dr. Rhodri Nelson & Gerard Gorman, Imperial College London
+* Presented by: Dr. Rhodri Nelson & Dr. Gerard Gorman, Imperial College London
 * Conference website: https://transform2020.sched.com/
 
 [Devito](https://www.devitoproject.org/) is a domain specific language (DSL) and compiler for finite difference schemes. This workshop will provide attendees with an introduction to the core elements of the Devito DSL. A breakdown of the agenda is as follows:
