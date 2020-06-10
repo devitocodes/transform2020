@@ -19,7 +19,7 @@ For attendees who would like a more hands on experience with Devito, during the 
 
 To access the workshop material:
 * If using the Azure VM's provided:
-    * Go to: http://tutorial.devitoproject.org
+    * Go to: http://devito-at-transform2020.uksouth.cloudapp.azure.com
     * Login using your Github credentials
     * New -> Terminal (A bash script will automatically initialize your environment)
     * Navigate to ```transform2020/workshop_notebooks``` and enjoy!

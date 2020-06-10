@@ -3,6 +3,9 @@ import numpy as np
 from examples.seismic import Model, TimeAxis, RickerSource, Receiver
 from devito import TimeFunction, Eq, solve, Operator, norm
 
+# Precision
+dtype=np.float64
+
 # Define a physical size
 shape = (101, 101)  # Number of grid point (nx, nz)
 spacing = (10., 10.)  # Grid spacing in m. The domain size is now 1km by 1km
@@ -10,14 +13,14 @@ origin = (0., 0.)  # What is the location of the top left corner. This is necess
                    # the absolute location of the source and receivers
 
 # Define a velocity profile. The velocity is in km/s
-v = np.empty(shape, dtype=np.float32)
+v = np.empty(shape, dtype=dtype)
 v[:, :51] = 1.5
 v[:, 51:] = 2.5
 
 # With the velocity and model size defined, we can create the seismic model that
 # encapsulates this properties. We also define the size of the absorbing layer as 10 grid points
 model = Model(vp=v, origin=origin, shape=shape, spacing=spacing,
-              space_order=2, nbl=10, bcs="damp")
+              space_order=2, nbl=10, bcs="damp", dtype=dtype)
 
 # Acquisition geometry
 t0 = 0.  # Simulation starts a t=0
@@ -59,7 +62,7 @@ rec_term = rec.interpolate(expr=u.forward)
 
 # Create and run the operator
 op = Operator([stencil] + src_term + rec_term, subs=model.spacing_map)
-op(time=time_range.num-1, dt=model.critical_dt)
+op(time=time_range.num-1, dt=dt)
 
 # Norm of the receiver data
-print(norm(rec))
+print('Norm of the receiver data:', norm(rec))
